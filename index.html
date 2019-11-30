@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="assets/purecss.css">
+        <link rel="stylesheet" href="assets/estilo.css">
+
+        <script type="text/javascript" src="master.js"></script>
+
+        <title></title>
+    </head>
+    <body>
+        
+        <div class="content">
+
+            <form class="pure-form pure-form-aligned" method="POST" action="http://localhost/paises/paises.php" >
+
+                    <fieldset>
+                            <legend>Buscador de Países</legend>
+                        <div class="pure-control-group">
+                            <label for="name">Nombre del Pais</label>
+                            <input id="name" type="text" placeholder="Pais" name="name">
+                            
+                        </div>
+                        <div class="pure-control-group">
+                                <label for="code">Codigo del Pais</label>
+                                <input id="code" type="text" placeholder="3 chars ej. MEX" name="code">
+                                
+                        </div>
+                        <div class="pure-control-group">
+                                <label for="capital">Capital</label>
+                                <input id="capital" type="text" placeholder="Ciudad" name="capital">
+                                
+                        </div>
+                        <div class="pure-control-group">
+                                <label for="code2">Codigo 2 dígitos</label>
+                                <input id="code2" type="text" placeholder="ej. MX" name="code2">
+                                
+                        </div>
+                
+                
+                        <div class="pure-controls">
+                           
+                
+                            <button type="submit" name="envio" class="pure-button pure-button-primary">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        
+    </body>
+</html>
